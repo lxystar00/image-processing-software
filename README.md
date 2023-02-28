@@ -1,2 +1,19 @@
-# image-processing-software
-基于pythonpyqt5框架的图像处理（以两种去雾算法为例），可打包为应用程序安装到windows、linux系统
+# single image dehaze
+## Introduction
+This program implement single image dehazing using dark channel prior and AOT-Net. 
+
+## Compile Dependencies
+- OpenCV
+- Numpy
+- pytorch
+
+## Examples
+<center>
+<img src="./image/15.png"  height = "400" alt="图片名称" />
+<img src="./image/J.png"   height = "400" alt="图片名称" />
+</center>
+
+
+## Algorithms
+- Single Image Haze Removal Using Dark Channel Prior, Kaiming He, Jian Sun, and Xiaoou Tang", in CVPR 2009 
+- Guided Image Filtering, Kaiming He, Jian Sun, and Xiaoou Tang", in ECCV 2010.
